@@ -1,0 +1,183 @@
+<style>
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, sans-serif;
+}
+
+
+header{
+    background:#0b5ed7;
+    color:white;
+    padding:20px;
+}
+
+header h1{
+    text-align:center;
+    margin-bottom:10px;
+}
+
+header p{
+    text-align:center;
+}
+
+nav{
+    background:#084298;
+    padding:15px;
+    text-align:center;
+}
+
+nav a{
+    color:white;
+    text-decoration:none;
+    margin:15px;
+    font-weight:bold;
+}
+
+nav a:hover{
+    color:yellow;
+}
+
+.hero-content{
+    background:rgba(0,0,0,0.6);
+    padding:30px;
+    border-radius:10px;
+}
+
+.hero h2{
+    font-size:40px;
+    margin-bottom:15px;
+}
+
+.hero p{
+    font-size:18px;
+    margin-bottom:20px;
+}
+
+.btn{
+    background:orange;
+    color:white;
+    padding:12px 25px;
+    text-decoration:none;
+    border-radius:5px;
+    font-weight:bold;
+}
+
+.btn:hover{
+    background:darkorange;
+}
+
+.container{
+    width:90%;
+    margin:auto;
+    padding:40px 0;
+}
+
+.about h2{
+    text-align:center;
+    margin-bottom:20px;
+    color:#0b5ed7;
+}
+
+.about p{
+    margin-bottom:20px;
+    line-height:1.8;
+    text-align:justify;
+}
+
+.gallery{
+    display:flex;
+    gap:20px;
+    justify-content:center;
+    flex-wrap:wrap;
+}
+
+.gallery img{
+    width:300px;
+    height:200px;
+    object-fit:cover;
+    border-radius:10px;
+}
+table,th, td {
+  border: 1px solid;
+  text-align: center;
+  border: 1px solid blue;
+}
+.services{
+    display:flex;
+    gap:20px;
+    flex-wrap:wrap;
+    justify-content:center;
+    
+}
+
+.card h3{
+    margin:15px 0;
+    color:#0b5ed7;
+}
+
+.contact{
+    background:white;
+    padding:30px;
+    border-radius:10px;
+}
+
+.contact h2{
+    text-align:center;
+    margin-bottom:20px;
+    color:#0b5ed7;
+}
+
+.contact form{
+    display:flex;
+    flex-direction:column;
+}
+
+.contact input,
+.contact textarea{
+    padding:12px;
+    margin-bottom:15px;
+    border:1px solid #ccc;
+    border-radius:5px;
+}
+
+.contact button{
+    background:#0b5ed7;
+    color:white;
+    padding:12px;
+    border:none;
+    border-radius:5px;
+    cursor:pointer;
+}
+
+.contact button:hover{
+    background:#084298;
+}
+
+footer{
+    background:#0b5ed7;
+    color:white;
+    text-align:center;
+    padding:20px;
+    margin-top:40px;
+}
+
+.socials a{
+    color:white;
+    margin:10px;
+    text-decoration:none;
+    font-size:20px;
+}
+
+p{
+  color:darkblue;
+  text-indent:30px;
+  
+}
+  
+h1,h2,h3,h4{
+  color:goldenrod;
+ }
+</style>
